@@ -25,23 +25,23 @@ configuration {
 
 * {
     border-colour:               #ffffff;
-    handle-colour:               #09090A;
-    background-colour:           #09090A;
+    handle-colour:               #101014;
+    background-colour:           #101014;
     foreground-colour:           #ffffff;
-    alternate-background:        #09090A;
-    normal-background:           #09090a;
+    alternate-background:        #101014;
+    normal-background:           #101014;
     normal-foreground:           #ffffff;
     urgent-background:           #ffffff;
     urgent-foreground:           #ffffff;
     active-background:           #ffffff;
-    active-foreground:           #09090A;
+    active-foreground:           #101014;
     selected-normal-background:   #333333;
     selected-normal-foreground:  #ffffff;
     selected-urgent-background:  #ffffff;
     selected-urgent-foreground:  #ffffff;
     selected-active-background:  #ffffff;
     selected-active-foreground:  #ffffff;
-    alternate-normal-background: #09090A;
+    alternate-normal-background: #101014;
     alternate-normal-foreground: #ffffff;
     alternate-urgent-background: #ffffff;
     alternate-urgent-foreground: #ffffff;
