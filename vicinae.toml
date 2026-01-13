@@ -1,0 +1,30 @@
+[meta]
+version = 1
+name = "Reverie"
+description = "Modern dark theme based on Base16 Fairfax HD palette"
+variant = "dark"
+icon = "icons/reverie.png"
+
+[colors.core]
+background = "#141118"             # base00
+foreground = "#a095b2"             # base05
+secondary_background = "#1e1a24"   # base01
+border = "#3b3447"                 # base03
+accent = "#98a4ff"                 # base0D
+
+[colors.accents]
+blue = "#98a4ff"       # base0D → functions
+green = "#aed4b9"      # base0B → strings
+magenta = "#d3a0e6"    # base0E → keywords
+orange = "#e2ccd0"     # base0A → types/classes
+purple = "#b4a0d4"     # base0C → regex/support
+red = "#d4b0c7"        # base08 → variables/constants
+yellow = "#d5bc95"     # base09 → numbers/constants
+cyan = "#a980db"       # base0C → misc / support
+
+[colors.list.item.selection]
+background = { name = "#27222f", opacity = 0.7 }  # base02
+secondary_background = "#3b3447"                  # base03
+
+[colors.list.item.hover]
+background = "#1e1a24"                            # base01
