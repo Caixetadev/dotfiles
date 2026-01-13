@@ -1,26 +1,34 @@
-[colors.bright]
-black = "#928374"
-blue = "#83a598"
-cyan = "#8ec07c"
-green = "#b8bb26"
-magenta = "#d3869b"
-red = "#fb4934"
-white = "#ebdbb2"
-yellow = "#fabd2f"
+[colors.primary]
+background = "#141118" # base00
+foreground = "#a095b2" # base05
+
+[colors.cursor]
+text = "#141118"
+cursor = "#a095b2"
+
+[colors.selection]
+background = "#27222f" # base02
+text = "#f4f3f6"       # base07
 
 [colors.normal]
-black = "#282828"
-blue = "#458588"
-cyan = "#689d6a"
-green = "#98971a"
-magenta = "#b16286"
-red = "#cc241d"
-white = "#a89984"
-yellow = "#d79921"
+black   = "#141118" # base00
+red     = "#d4b0c7" # base08
+green   = "#aed4b9" # base0B
+yellow  = "#e2ccd0" # base0A
+blue    = "#98a4ff" # base0D
+magenta = "#d3a0e6" # base0E
+cyan    = "#b4a0d4" # base0C
+white   = "#a095b2" # base05
 
-[colors.primary]
-background = "#1d2021"
-foreground = "#ebdbb2"
+[colors.bright]
+black   = "#3b3447" # base03
+red     = "#d4b0c7" # base08
+green   = "#aed4b9" # base0B
+yellow  = "#e2ccd0" # base0A
+blue    = "#98a4ff" # base0D
+magenta = "#d3a0e6" # base0E
+cyan    = "#b4a0d4" # base0C
+white   = "#f4f3f6" # base07
 
 [cursor]
 unfocused_hollow = true
@@ -32,10 +40,13 @@ blinking = "Never"
 TERM = "xterm-256color"
 
 [font]
-size = 7
-
-[font.normal]
-family = "JetBrains Mono Nerd Font"
+size = 10
+normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
+bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
+italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
+# [font.normal]
+# family = "JetBrains Mono Nerd Font"
 
 [[keyboard.bindings]]
 action = "SpawnNewInstance"
@@ -52,5 +63,6 @@ lines = 40
 
 [window]
 dynamic_padding = true
+padding = { x = 20, y = 10 }
 decorations = "none"
 
